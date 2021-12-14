@@ -1,13 +1,11 @@
 # graphql-rest-wrapper
 
-You can find more info about this repository [here](https://medium.com/@graphcool/how-to-wrap-a-rest-api-with-graphql-8bf3fb17547d).
+graphql 练手项目，基于此[repo](https://medium.com/@graphcool/how-to-wrap-a-rest-api-with-graphql-8bf3fb17547d)做的改造，相关文章[链接](https://www.prisma.io/blog/how-to-wrap-a-rest-api-with-graphql-8bf3fb17547d)
 
-> The REST API that's wrapped with GraphQL in this project can be found [here](https://github.com/nikolasburk/rest-demo).
-
-## Usage
+## 启动方式
 
 ```sh
-git clone git@github.com:nikolasburk/graphql-rest-wrapper.git
+git clone git@github.com:beforegolive/graphql-rest-wrapper.git
 cd graphql-rest-wrapper
 yarn start
 ```
