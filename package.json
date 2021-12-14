@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "concurrently \"node src/index.js\" \"npm:server\"",
+    "server": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^6.4.0",
     "graphql-yoga": "^1.3.3",
     "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
   }
 }
